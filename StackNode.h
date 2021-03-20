@@ -1,10 +1,17 @@
+// Scott Fitzpatrick
+// 2328196
+// sfitzpatrick@chapman.edu
+// CPSC 350-01
+// Assignment 4: Having fun with stacks :)
+// This is a template class file for StackNodes within GenStack
+
 #ifndef STACKNODE_H
 #define STACKNODE_H
 
 #include <iostream>
 using namespace std;
 
-/*----------------------------------Header----------------------------------*/
+/*---------------------------Header---------------------------*/
 template <class T>
 class StackNode {
 public:
@@ -18,20 +25,17 @@ public:
 	StackNode* next;
 };
 
-/*------------------Constructor/Desctructor Implementation------------------*/
+/*-----------Constructor/Desctructor Implementation-----------*/
 template <class T>
 StackNode<T>::StackNode() {}
 
 template <class T>
 StackNode<T>::StackNode(T newData) {
 	data = newData;
-	next = 0; //will be changed once node is stacked
+	next = 0;
 }
 
 template <class T>
-StackNode<T>::~StackNode() { //TODO: check if this is okay
-	data = 0;
-	next = 0;
-}
+StackNode<T>::~StackNode() {}
 
 #endif
