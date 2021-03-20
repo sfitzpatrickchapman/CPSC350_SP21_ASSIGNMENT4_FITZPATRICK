@@ -31,7 +31,7 @@ will read each line and write a reverse complement of the DNA to a file called
 * isdigit: http://www.cplusplus.com/reference/cctype/isdigit/
 * length(): https://www.w3schools.com/cpp/cpp_strings_length.asp
 * Casting: https://www.bitdegree.org/learn/string-to-int-c-plus-plus
-* Exception Handling https://www.geeksforgeeks.org/exception-handling-c/
+* Exception Handling: https://www.geeksforgeeks.org/exception-handling-c/
 * Command line arguments: https://www.cplusplus.com/forum/beginner/47996/
 * Reverse Polish notation: https://en.wikipedia.org/wiki/Reverse_Polish_notation
 * int or string: https://www.geeksforgeeks.org/program-check-input-integer-string/
